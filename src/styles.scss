@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+$primary-text: #333745;
+$secondary-text: #575d75;
+$primary-color: #a0e4ad;
+$secondary-color: #85aad1;
+$background-color: #fffbf8;
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: "Poppins", sans-serif;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
