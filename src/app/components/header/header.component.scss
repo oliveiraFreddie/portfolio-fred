@@ -1,6 +1,6 @@
 @import "../../../styles.scss";
 
-// Desktop Menu
+/* DESKTOP */
 
 nav,
 .nav-links {
@@ -10,7 +10,6 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
 }
 
 .nav-links {
@@ -32,9 +31,10 @@ a:hover {
   text-decoration-color: $secondary-text;
 }
 
-.logo {
-  max-height: 100%;
+.logo img {
   cursor: pointer;
+  height: 17vh;
+  width: 17vh;
 }
 
 // Hamburger Menu
