@@ -1,3 +1,11 @@
+/* GERAL */
+
+$primary-text: #333745;
+$secondary-text: #575d75;
+$primary-color: #a0e4ad;
+$secondary-color: #85aad1;
+$background-color: #fffbf8;
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -5,22 +13,30 @@
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: $primary-text;
+  background: $secondary-color;
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
+  background-color: $secondary-color;
 }
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: $primary-text;
 }
 
 .project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+  border-color: $primary-text;
+}
+
+.btn-container {
+  background-color: $secondary-color;
+}
+
+.article-container {
+  background-color: $secondary-color;
 }
