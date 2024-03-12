@@ -1,5 +1,24 @@
+/* GERAL */
+
+$primary-text: #333745;
+$secondary-text: #575d75;
+$primary-color: #a0e4ad;
+$secondary-color: #85aad1;
+$background-color: #fffbf8;
+
 /* FOOTER SECTION */
+
+footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5rem;
+  height: 17vh;
+}
 
 footer p {
   text-align: center;
+}
+
+span {
+  font-weight: bold;
 }
